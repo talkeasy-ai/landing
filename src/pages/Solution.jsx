@@ -75,6 +75,34 @@ export default function Solution() {
             </div>
           </div>
         </section>
+
+        <section className="py-20 bg-cream">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-4xl font-bold font-heading text-teal mb-8">Technical Architecture</h2>
+            <p className="text-lg text-teal mb-8 leading-relaxed">
+              Talkeasy is built on cutting-edge, privacy-first technology that brings AI to devices without relying on cloud infrastructure or data collection.
+            </p>
+
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 border-l-4 border-coral">
+                <h3 className="text-lg font-heading font-bold text-coral mb-2">On-Device Inference</h3>
+                <p className="text-teal">Lightweight machine learning models run directly on the phone using frameworks like TensorFlow Lite. Voice processing, intent recognition, and command execution all happen locally.</p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border-l-4 border-orange">
+                <h3 className="text-lg font-heading font-bold text-coral mb-2">Multilingual NLU</h3>
+                <p className="text-teal">Built on open-source speech recognition and natural language understanding. Supports multiple languages with custom models optimized for accents and speech variations common in our target demographics.</p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border-l-4 border-coral">
+                <h3 className="text-lg font-heading font-bold text-coral mb-2">Zero Data Collection</h3>
+                <p className="text-teal">All audio and user data remains on the device. No cloud synchronization, no analytics collection, no third-party data sharing. Your voice is yours alone.</p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border-l-4 border-orange">
+                <h3 className="text-lg font-heading font-bold text-coral mb-2">Open Source Foundation</h3>
+                <p className="text-teal">Built with AGPL-3.0 license. Auditable code, community contributions, and transparent development. You can inspect every line to verify privacy and security claims.</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
