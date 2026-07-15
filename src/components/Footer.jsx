@@ -12,7 +12,7 @@ export default function Footer() {
               <img src="/images/logo.svg" alt="Talkeasy" className="h-32 w-full object-cover" />
             </Link>
             <p className="text-gray-400 leading-relaxed max-w-sm mb-6">
-              Helping anyone use their phone with just their voice. Offline-first. Open source. Berlin.
+              Helping anyone use their phone with just their voice. Offline-first.
             </p>
             {/* Social Links */}
             <div className="flex gap-4">

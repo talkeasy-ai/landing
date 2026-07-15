@@ -127,7 +127,7 @@ export default function Contact() {
 
                     <div>
                       <h4 className="font-medium text-sm text-muted-foreground mb-1">About Talkeasy</h4>
-                      <p className="text-sm">We help anyone use their phone with just their voice. Offline-first. Open source. Berlin.</p>
+                      <p className="text-sm">We help anyone use their phone with just their voice. Offline-first.</p>
                     </div>
                   </div>
                 </div>
