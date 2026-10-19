@@ -29,9 +29,8 @@ export default function WaitlistSection() {
 
       if (response.ok) {
         setStatus('success')
-        setMessage('Thanks for joining! Check your email for updates.')
+        setMessage(data.message)
         setEmail('')
-        setTimeout(() => setStatus('idle'), 5000)
       } else {
         setStatus('error')
         setMessage(data.message || 'Something went wrong. Please try again.')
@@ -60,6 +59,8 @@ export default function WaitlistSection() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="your@email.com"
+            aria-label="Email address"
+            required
             className="flex-1 px-6 py-3 border-2 border-teal rounded-lg text-teal placeholder-teal placeholder-opacity-50 focus:outline-none focus:border-coral transition"
             disabled={status === 'loading'}
           />
@@ -73,11 +74,11 @@ export default function WaitlistSection() {
         </form>
 
         {status === 'success' && (
-          <p className="text-green-600 mt-4 font-medium">{message}</p>
+          <p className="text-teal mt-4 font-medium" role="status">{message}</p>
         )}
 
         {status === 'error' && (
-          <p className="text-coral mt-4 font-medium">{message}</p>
+          <p className="text-coral-dark mt-4 font-medium" role="alert">{message}</p>
         )}
       </div>
     </section>

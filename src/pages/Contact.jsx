@@ -117,7 +117,7 @@ export default function Contact() {
                   <div className="space-y-6">
                     <div>
                       <h4 className="font-medium text-sm text-muted-foreground mb-1">Email</h4>
-                      <p><a href="mailto:hello@talkeasy.app" className="text-coral hover:underline">hello@talkeasy.app</a></p>
+                      <p><a href="mailto:hello@talkeasy.tech" className="text-coral hover:underline">hello@talkeasy.tech</a></p>
                     </div>
 
                     <div>

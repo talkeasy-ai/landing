@@ -13,7 +13,7 @@ Talkeasy is a voice-first, open-source AI assistant for elderly and digitally-ex
 
 **One-line pitch:** Talkeasy helps anyone — regardless of age, literacy, or tech experience — use their phone with just their voice.
 
-**Origin story (useful for hero copy):** Built for people like "she just wants to call her daughter" — users who are capable and independent but locked out of modern devices by interface complexity, not ability.
+**Origin story (useful for hero copy):** Talkeasy is built for the founder's grandmother, Emaye (Fantaye), 76. She moved from Ethiopia to Alexandria, Virginia, 19 years ago to be near her son, and has family all over the world. She doesn't speak or read English, but she's capable and independent: she learned the bus routes and built a life in a new country, and she loves WhatsApp. Her phone is what defeats her. One wrong tap mutes it and she can't call her children. She dismisses her medication reminder because she can't read it fast enough. A YouTube update hides her favourite show, and she waits alone until a grandchild can come and fix it. The device meant to connect her isolates her. The problem is the interface, not her ability: technology was designed for people like the engineers who built it. Talkeasy asks "what if all she had to do was speak?" — "She just wants to call her daughter." The full first-person version is on the About page (`src/pages/About.jsx`, Origin Story section). Source: the founder's pitch decks.
 
 ---
 
