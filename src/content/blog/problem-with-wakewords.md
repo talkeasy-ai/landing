@@ -3,7 +3,7 @@ title: The problem with wake words: 3 reasons most languages are left out
 date: 2026-11-24
 author: Natnael W. Getahun
 excerpt: I taught a phone to hear "Hey Talkeasy" in English. Then I asked how to do it in my grandmother's language, and found that almost nobody can. Here's why, and why the fix has to be open.
-draft: true
+draft: false
 ---
 
 A few weeks ago, I taught a phone to hear two words: "Hey Talkeasy". Soon after it first worked, I asked a simple question: could I do the same in my grandmother's language?
