@@ -25,6 +25,9 @@ export default function Header() {
             {/* <Link to="/roadmap" className="text-teal hover:text-coral transition text-sm font-medium">
               Roadmap
             </Link> */}
+            <Link to="/blog" className="text-teal hover:text-coral transition text-sm font-medium">
+              Blog
+            </Link>
             <Link to="/contact" className="text-teal hover:text-coral transition text-sm font-medium">
               Contact
             </Link>
@@ -58,6 +61,9 @@ export default function Header() {
             {/* <Link to="/roadmap" className="text-teal hover:text-coral py-2 text-sm font-medium">
               Roadmap
             </Link> */}
+            <Link to="/blog" className="text-teal hover:text-coral py-2 text-sm font-medium">
+              Blog
+            </Link>
             <Link to="/contact" className="text-teal hover:text-coral py-2 text-sm font-medium">
               Contact
             </Link>
