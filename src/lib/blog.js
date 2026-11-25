@@ -47,8 +47,8 @@ const posts = Object.entries(files)
       html: marked.parse(body),
     }
   })
-  // Drafts show up while running `yarn dev`, never on the live site.
-  .filter((post) => import.meta.env.DEV || !post.draft)
+  // Drafts show up in `yarn dev` and on Vercel preview deployments, never on the live site.
+  .filter((post) => import.meta.env.DEV || __SHOW_DRAFTS__ || !post.draft)
   .sort((a, b) => b.date.localeCompare(a.date))
 
 export function getAllPosts() {

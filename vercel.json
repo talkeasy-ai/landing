@@ -3,5 +3,8 @@
   "devCommand": "yarn dev",
   "installCommand": "yarn install",
   "framework": "vite",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
 }
